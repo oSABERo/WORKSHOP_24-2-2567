@@ -5,3 +5,4 @@ def test_newton():
     df = lambda x: 2*x
     nm = Newton(f, df)
     assert nm.solve(10, 1e-10, 100) == 2
+    assert nm.solve(-10, 1e-10, 100) == -2
