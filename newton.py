@@ -1,3 +1,4 @@
+# Newton's method
 class Newton:
     def __init__(self, f, df):
         self.f = f
