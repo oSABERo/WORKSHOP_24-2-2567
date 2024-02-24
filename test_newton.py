@@ -1,6 +1,6 @@
 from newton import Newton
 
-def test_newton_method_quadratic():
+def test_newton():
     f = lambda x: x**2 - 4
     df = lambda x: 2*x
     nm = Newton(f, df)
