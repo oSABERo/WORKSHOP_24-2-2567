@@ -17,7 +17,7 @@
     assert round(nm.solve(-10, 1e-10, 100), 10) == -2
 
 # Define the Newton class
-class Newton:
+    class Newton:
     # Initialize the Newton class with a function and its derivative
     def __init__(self, f, df):
         self.f = f
@@ -47,22 +47,22 @@ class Newton:
         return x
 
 # Define a function f and its derivative df
-def f(x):
-    return x**3 - 4
+    def f(x):
+        return x**3 - 4
 
-def df(x):
-    return 3*x**2
+    def df(x):
+        return 3*x**2
 
 # Import the Newton class from the newton module
-from newton import Newton
+    from newton import Newton
 
 # Define a starting point x
-x = 10
+    x = 10
 # Calculate the function and its derivative at x
-f_x = f(x)
-df_x = df(x)
+    f_x = f(x)
+    df_x = df(x)
 
 # Create an instance of the Newton class with f and df
-aaa = Newton(f, df)
+    aaa = Newton(f, df)
 # Solve for the root of the function starting from x
-aaa.solve(x, 1e-10, 100)
+    aaa.solve(x, 1e-10, 100)
