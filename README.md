@@ -1,13 +1,13 @@
 # workshop_24-2-2567
 
 # Import the Newton class from the newton module
-from newton import Newton
+    from newton import Newton
 
 # Define a test function for the Newton class
-def test_newton():
-    # Define a function f and its derivative df
-    f = lambda x: x**2 - 4
-    df = lambda x: 2*x
+    def test_newton():
+        # Define a function f and its derivative df
+        f = lambda x: x**2 - 4
+        df = lambda x: 2*x
 
     # Create an instance of the Newton class with f and df
     nm = Newton(f, df)
