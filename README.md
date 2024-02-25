@@ -1,4 +1,4 @@
-# workshop_24-2-2567
+# WORKSHOP_24-2-2567
 
 # Import the Newton class from the newton module
     from newton import Newton
